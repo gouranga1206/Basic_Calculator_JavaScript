@@ -85,5 +85,8 @@ input[value]{
     top: 63%;
     left: 55%;  
     color: rgba(253, 8, 8, 0.532);
+}
 
+.btn:hover{
+    transform: scale(1.1);
 }
