@@ -13,7 +13,7 @@
     background: linear-gradient(to right bottom, #042954, #810092);
 }
 
-.Calculator_body{
+#Calculator_body{
     width:20%;
     height:65vh;
     display: flex;
@@ -25,6 +25,10 @@
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
 }
 
+.abc{
+    width:40%;
+}
+
 .display_input{
     position: relative;
     background-color:aliceblue;
@@ -32,6 +36,7 @@
     height:25%;
     top:-5vh;
     border-style: none;
+    border-radius: 10px;
 }
 
 input[value]{
@@ -41,7 +46,7 @@ input[value]{
 }
 
 .buttons{
-    /* position: relative; */
+    /* position: absolute; */
     width: 100%;
     height: 75%;
     display: flex;
@@ -54,6 +59,7 @@ input[value]{
 }
 
 .buttons table tr td{
+    font-size: 1.2rem;
     width: 25%;
     text-align: center;
 }
@@ -76,17 +82,25 @@ input[value]{
     background-color: rgba(228, 203, 115, 0.86);
     color: rgba(253, 8, 8, 0.532);
 }
-/* .oval{
-    position: absolute;
-    border-radius: 50px;
-    width:3.48%;
-    height:15.9%;
-    background-color: rgba(228, 203, 115, 0.86);  
-    top: 63%;
-    left: 55%;  
-    color: rgba(253, 8, 8, 0.532);
-} */
 
 .btn:hover{
     transform: scale(1.1);
 }
+
+#scientific_div {
+    position: relative;
+    width: 90%;
+    height: 95%;
+    display: none;
+}
+#scientific_div table{
+    width:100%;
+    height:100%;
+    justify-self: center;
+    /* margin-left: 25px; */
+    border-collapse: collapse;
+}
+#scientific_div button{
+    font-size: 1.2rem;
+}
+
