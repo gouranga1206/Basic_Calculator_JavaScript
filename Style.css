@@ -76,7 +76,7 @@ input[value]{
     background-color: rgba(228, 203, 115, 0.86);
     color: rgba(253, 8, 8, 0.532);
 }
-.oval{
+/* .oval{
     position: absolute;
     border-radius: 50px;
     width:3.48%;
@@ -85,7 +85,7 @@ input[value]{
     top: 63%;
     left: 55%;  
     color: rgba(253, 8, 8, 0.532);
-}
+} */
 
 .btn:hover{
     transform: scale(1.1);
