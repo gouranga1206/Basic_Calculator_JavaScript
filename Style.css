@@ -14,12 +14,76 @@
 }
 
 .Calculator_body{
-    width:20vw;
-    height:60vh;
+    width:20%;
+    height:65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
     border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+
+.display_input{
+    position: relative;
+    background-color:aliceblue;
+    width: 100%;
+    height:25%;
+    top:-5vh;
+    border-style: none;
+}
+
+input[value]{
+    position: relative;
+    color:blue;
+    font-size: 1.5rem;
+}
+
+.buttons{
+    /* position: relative; */
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+.buttons table{
+    width: 90%;
+    height: 95%;
+    border-collapse: collapse;
+}
+
+.buttons table tr td{
+    width: 25%;
+    text-align: center;
+}
+.btn{
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    background-color: rgba(115, 228, 225, 0.86);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(9, 131, 127);
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+.box {
+    border-radius: 10px;
+    background-color: rgba(228, 203, 115, 0.86);
+    color: rgba(253, 8, 8, 0.532);
+}
+.oval{
+    position: absolute;
+    border-radius: 50px;
+    width:3.48%;
+    height:15.9%;
+    background-color: rgba(228, 203, 115, 0.86);  
+    top: 63%;
+    left: 55%;  
+    color: rgba(253, 8, 8, 0.532);
+
 }
