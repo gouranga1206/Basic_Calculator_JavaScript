@@ -24,11 +24,6 @@
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
 }
-
-.abc{
-    width:40%;
-}
-
 .display_input{
     position: relative;
     background-color:aliceblue;
@@ -43,10 +38,9 @@ input[value]{
     position: relative;
     color:rgb(16, 16, 19);
     font-size: 1.5rem;
+   
 }
-
 .buttons{
-    /* position: absolute; */
     width: 100%;
     height: 75%;
     display: flex;
@@ -87,20 +81,4 @@ input[value]{
     transform: scale(1.1);
 }
 
-#scientific_div {
-    position: relative;
-    width: 90%;
-    height: 95%;
-    display: none;
-}
-#scientific_div table{
-    width:100%;
-    height:100%;
-    justify-self: center;
-    /* margin-left: 25px; */
-    border-collapse: collapse;
-}
-#scientific_div button{
-    font-size: 1.2rem;
-}
 
